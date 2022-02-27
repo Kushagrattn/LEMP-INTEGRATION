@@ -12,9 +12,8 @@ pipeline {
     
 }
 
-```
-pipeline {
-    agent any
+#pipeline {
+ #   agent any
 
     stages{
         stage('ssh to LEMP server'){
