@@ -7,7 +7,7 @@ pipeline {
                sh 'ssh ubuntu@34.205.159.237'
             }
         }
-	stage('Check NGINX Configuration'){
+	stage('File creation'){
             steps{
                sh 'touch file.txt'
             }
