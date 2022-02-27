@@ -6,8 +6,8 @@ pipeline {
             steps{
                sh 'ssh ubuntu@34.205.159.237'
 		     sh 'touch file.txt'
-		     sh 'sudo nginx -t'
-		    sh 'sudo systemctl restart nginx'   
+		     sh 'sudo -S nginx -t'
+		    sh 'sudo -S systemctl restart nginx'   
             	}
         }
 	
